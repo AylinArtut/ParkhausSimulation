@@ -4,7 +4,8 @@ Ein webbasiertes Projekt für das Studium mit Java, welches ein Parkhausverwaltu
 Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen Kanbanboard-Aktivitäten. :frog:
 
 -------------------------------------------------------------------------------------------------------------------
-**Screenshot des aktuellen Stands:** - kommt bald - :blush:
+**Screenshot des aktuellen Stands:** Da keine spezifischen Vorgaben & Grenzen vorliegen wird es pink & glitzernd! :satisfied:
+![alt text](https://s20.directupload.net/images/210430/6ul4mxml.jpg) 
 
 -------------------------------------------------------------------------------------------------------------------
 

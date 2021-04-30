@@ -38,8 +38,8 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
       <td>Einfindung in Funktionsweise mit Servlets & Co. (Erstellung von Test-Servlets & -Klassen)</td>
     </tr>
      <tr>
-      <td>Planung bzw. Erstellung benötigter Klassen ("Car" & "CarPark")</td>
       <td></td>
+      <td>Planung bzw. Erstellung benötigter Klassen ("Car" & "CarPark")</td>
       <td></td>
     </tr>
      <tr>

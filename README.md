@@ -28,14 +28,14 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
       <td>Erstellung der User Stories</td>
     </tr>
     <tr>
+      <td></td>
+      <td></td>
       <td>Lokale Einrichtung des Tomcat-Servers in der IDE (IntelliJ)</td>
-      <td></td>
-      <td></td>
     </tr>
     <tr>
+      <td></td>
+      <td></td>
       <td>Einfindung in Funktionsweise mit Servlets & Co. (Erstellung von Test-Servlets & -Klassen)</td>
-      <td></td>
-      <td></td>
     </tr>
      <tr>
       <td>Planung bzw. Erstellung benötigter Klassen ("Car" & "CarPark")</td>

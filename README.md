@@ -18,57 +18,57 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
   </thead>
   <tbody>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
+      <td>Grobe Planung des Parkhauses mit Skizze (Produkt Vision)</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td></td>
+      <td>Erstellung der User Stories</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
+      <td>Lokale Einrichtung des Tomcat-Servers in der IDE (IntelliJ)</td>
       <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Einfindung in Funktionsweise mit Servlets & Co. (Erstellung von Test-Servlets & -Klassen)</td>
       <td></td>
       <td></td>
     </tr>
      <tr>
-      <td></td>
+      <td>Planung bzw. Erstellung benötigter Klassen ("Car" & "CarPark")</td>
       <td></td>
       <td></td>
     </tr>
      <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
+      <td>Planung der benötigten Methoden für Klasse "Car"</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
+      <td>Planung der benötigten Methoden für Klasse "CarPark"</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td></td>
+      <td>Erstellung der JUnittests für die Klasse "Car"</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
+      <td>Erstellung der JUnittests für die Klasse "CarPark"</td>
       <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Erstellung der Methoden für die Klasse "Car"</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Erstellung der Methoden für die Klasse "CarPark"</td>
       <td></td>
       <td></td>
     </tr>

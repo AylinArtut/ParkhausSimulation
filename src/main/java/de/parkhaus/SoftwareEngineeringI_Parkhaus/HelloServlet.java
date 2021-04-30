@@ -10,8 +10,6 @@ public class HelloServlet extends HttpServlet {
 
     public void init() {
         message = "Hello World";
-        Car car = new Car();
-        message = car.getTimeStamp();
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {

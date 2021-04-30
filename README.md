@@ -83,6 +83,11 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 
 -------------------------------------------------------------------------------------------------------------------
 
+**Planung benötigter Methoden für beide Klassen:**
+![alt text](https://s8.directupload.net/images/210430/anzn8bxp.png)
+
+-------------------------------------------------------------------------------------------------------------------
+
 <table>
   <thead>
     <th>User Stories:</th>

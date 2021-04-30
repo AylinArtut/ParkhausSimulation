@@ -76,3 +76,8 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 </table>
 
 -------------------------------------------------------------------------------------------------------------------
+
+**Grobe Vorstellung (Produkt Vision):**
+![alt text](https://s12.directupload.net/images/210430/ok2ufitt.png)
+
+-------------------------------------------------------------------------------------------------------------------

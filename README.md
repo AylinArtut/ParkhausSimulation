@@ -18,14 +18,14 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
   </thead>
   <tbody>
     <tr>
+      <td></td>
+      <td></td>
       <td>Grobe Planung des Parkhauses mit Skizze (Produkt Vision)</td>
-      <td></td>
-      <td></td>
     </tr>
     <tr>
+      <td></td>
+      <td></td>
       <td>Erstellung der User Stories</td>
-      <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>Lokale Einrichtung des Tomcat-Servers in der IDE (IntelliJ)</td>

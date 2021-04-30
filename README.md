@@ -44,13 +44,13 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
       <td>Planung bzw. Erstellung benötigter Klassen ("Car" & "CarPark")</td>
     </tr>
      <tr>
-      <td>Planung der benötigten Methoden für Klasse "Car"</td>
       <td></td>
+      <td>Planung der benötigten Methoden für Klasse "Car"</td>
       <td></td>
     </tr>
     <tr>
-      <td>Planung der benötigten Methoden für Klasse "CarPark"</td>
       <td></td>
+      <td>Planung der benötigten Methoden für Klasse "CarPark"</td>
       <td></td>
     </tr>
     <tr>

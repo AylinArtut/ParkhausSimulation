@@ -73,6 +73,16 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
       <td></td>
       <td></td>
     </tr>
+    <tr>
+      <td>Erstellung der Benutzeroberfläche mit Buttons & Co.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Optional: Mini-Browsergame mit Hinzunahme von jQuery (Auto-Steuerung etc.)</td>
+      <td></td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
 

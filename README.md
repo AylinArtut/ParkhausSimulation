@@ -40,8 +40,8 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
     </tr>
      <tr>
       <td></td>
-      <td>Planung bzw. Erstellung benötigter Klassen ("Car" & "CarPark")</td>
       <td></td>
+      <td>Planung bzw. Erstellung benötigter Klassen ("Car" & "CarPark")</td>
     </tr>
      <tr>
       <td>Planung der benötigten Methoden für Klasse "Car"</td>

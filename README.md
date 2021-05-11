@@ -3,6 +3,12 @@
 Ein webbasiertes Projekt für das Studium mit Java, welches ein Parkhausverwaltungssystem simuliert. :tulip:
 Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen Kanbanboard-Aktivitäten. :frog:
 
+Notiz:
+
+Man sollte JUnittests bereits vor den Methoden schreiben, aber das habe ich gedanklich nicht hinbekommen.
+Meine Methoden habe ich dann schließlich ganz anders realisiert, als ich es ursprünglich plante ...
+Jedenfalls wollte ich da mal ehrlich sein & nicht den Quellcode kurz löschen, die Tests dazu schreiben & es wieder einfügen.
+
 -------------------------------------------------------------------------------------------------------------------
 **Screenshot des aktuellen Stands:** Da keine spezifischen Vorgaben & Grenzen vorliegen wird es pink & glitzernd! :satisfied:
 ![alt text](https://s20.directupload.net/images/210430/6ul4mxml.jpg) 

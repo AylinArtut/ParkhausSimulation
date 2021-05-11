@@ -64,18 +64,18 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
       <td></td>
     </tr>
     <tr>
+      <td></td>
       <td>Erstellung der Methoden für die Klasse "Car"</td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
+      <td></td>
       <td>Erstellung der Methoden für die Klasse "CarPark"</td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
-      <td>Erstellung der Benutzeroberfläche mit Buttons & Co.</td>
       <td></td>
+      <td>Erstellung der Benutzeroberfläche mit Buttons & Co.</td>
       <td></td>
     </tr>
     <tr>

@@ -10,8 +10,11 @@ Meine Methoden habe ich dann schließlich ganz anders realisiert, als ich es urs
 Jedenfalls wollte ich da mal ehrlich sein & nicht den Quellcode kurz löschen, die Tests dazu schreiben & es wieder einfügen.
 
 -------------------------------------------------------------------------------------------------------------------
-**Screenshot des aktuellen Stands:** Da keine spezifischen Vorgaben & Grenzen vorliegen wird es pink & glitzernd! :satisfied:
-![alt text](https://s20.directupload.net/images/210430/6ul4mxml.jpg) 
+**Screenshot des aktuellen Stands:**
+
+Die bunten, ovalen Elemente sollen die Autos darstellen & das Rechteck indem sie sich befinden die Parkplätze.
+
+![alt text](https://bilderupload.org/image/860374329-parkhaus-screenshot.jpg) 
 
 -------------------------------------------------------------------------------------------------------------------
 

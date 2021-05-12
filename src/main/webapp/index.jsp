@@ -44,10 +44,12 @@
 
     <form action="index.jsp" method="get">
         <input type="submit" name="spawnCar" value="Spawn Car & in Parkhaus reinstopfen" />
+        <input type="submit" name="kickCar" value="Car aus Parkhaus rausschmeißen" />
     </form>
 
     <%
-        CarPark carPark = new CarPark("TraumParkhaus", 10, 1);
+        Car car = new Car();
+        CarPark carPark = new CarPark("TraumParkhaus", 10, 0);
 
         for(int i = 0; i < CarPark.parkingSlots.length; i++){
     %>
@@ -57,17 +59,24 @@
     <%
         }
 
+        if (request.getParameter("kickCar") != null) {
+    %>
+    <h1> <%= carPark.leaveCarPark(car) %> </h1>
+    <%
+        }
+
         if (request.getParameter("spawnCar") != null) {
     %>
 
-    <div id="test"> <%= carPark.putCarToCarPark(new Car()) %> </div>
+            <div id="test"> <%= carPark.putCarToCarPark(car) %> </div>
 
     <%
         }
     %>
 
     <%
-        for(int j = 0; j < CarPark.parkedCars; j++){
+        for(int j = 0; j < CarPark.parkingSlots.length; j++){
+            if(CarPark.parkingSlots[j] != null){
     %>
 
     <style>
@@ -78,8 +87,17 @@
     </style>
 
     <%
-        }
+            }else{
     %>
+    <style>
+        #car<%=j%>{
+            visibility: hidden;
+        }
+    </style>
+    <%
+            }
+        }
+        %>
 
 </body>
 </html>

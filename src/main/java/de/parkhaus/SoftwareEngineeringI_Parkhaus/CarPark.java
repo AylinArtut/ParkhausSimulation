@@ -11,7 +11,7 @@ public class CarPark{
 
     double pricePerHour;
 
-    public static int parkedCars = 0;
+    public static int parkedCars;
 
     public CarPark(String carParkName, int parkingSlotSizes, double pricePerHour){
         this.carParkName = carParkName;
@@ -47,13 +47,15 @@ public class CarPark{
         return "Im Parkhaus sind nun: " + parkedCars + " Autos.";
     }
 
-    private void leaveCarPark(Car car){
+    public String leaveCarPark(Car car){
         for(int i = 0; i < parkingSlots.length; i++){
-            if(parkingSlots[i].carRegistrationNumber == car.carRegistrationNumber){
+            if(parkingSlots[i] != null){
                 parkingSlots[i] = null;
+                parkedCars -= 1;
                 break;
-            }
+           }
         }
+        return "Im Parkhaus sind nun: " + parkedCars + " Autos.";
     }
 
     private void calculatePrice(Car car){
@@ -66,8 +68,6 @@ public class CarPark{
     }
 
     public void kickCarOutOfCarPark(Car car){
-        leaveCarPark(car);
-
         car.leaveTime = setTimeStamp();
 
         calculatePrice(car);

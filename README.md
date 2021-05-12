@@ -12,9 +12,13 @@ Jedenfalls wollte ich da mal ehrlich sein & nicht den Quellcode kurz löschen, d
 -------------------------------------------------------------------------------------------------------------------
 **Screenshot des aktuellen Stands:**
 
-Die bunten, ovalen Elemente sollen die Autos darstellen & das Rechteck indem sie sich befinden die Parkplätze.
+Die bunten (Farbe wird zufällig generiert), ovalen Elemente sollen die Autos darstellen & das Rechteck indem sie sich befinden die Parkplätze:
 
 ![alt text](https://bilderupload.org/image/860374329-parkhaus-screenshot.jpg) 
+
+Jetzt auch mit der Möglichkeit das Parkhaus zu verlassen:
+
+![alt text](https://bilderupload.org/image/e55188520-yayy.jpg)
 
 -------------------------------------------------------------------------------------------------------------------
 

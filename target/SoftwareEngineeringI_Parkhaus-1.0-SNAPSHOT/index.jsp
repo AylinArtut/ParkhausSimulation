@@ -27,13 +27,6 @@
             border: 2px solid black;
             border-radius: 25px;
         }
-
-        #test{
-            padding-left: 8px;
-            padding-top: 30px;
-            padding-bottom: 30px;
-            font-size: 25px;
-        }
     </style>
 
 </head>
@@ -42,62 +35,43 @@
     <h1> Das Traum-Parkhaus! ♡ </h1>
     <br/>
 
-    <form action="index.jsp" method="get">
+    <form action="hello-servlet" method="get">
         <input type="submit" name="spawnCar" value="Spawn Car & in Parkhaus reinstopfen" />
         <input type="submit" name="kickCar" value="Car aus Parkhaus rausschmeißen" />
     </form>
 
     <%
-        Car car = new Car();
-        CarPark carPark = new CarPark("TraumParkhaus", 10, 0);
-
         for(int i = 0; i < CarPark.parkingSlots.length; i++){
     %>
-
-     <div class="parkingSlot"> <div class="car" id="<%="car" + i%>"> </div> </div>
-
-    <%
-        }
-
-        if (request.getParameter("kickCar") != null) {
-    %>
-    <h1> <%= carPark.leaveCarPark(car) %> </h1>
-    <%
-        }
-
-        if (request.getParameter("spawnCar") != null) {
-    %>
-
-            <div id="test"> <%= carPark.putCarToCarPark(car) %> </div>
-
+            <div class="parkingSlot"> <div class="car" id="<%="car" + i%>"> </div> </div>
     <%
         }
     %>
+
+    <h1> <%= request.getAttribute("information") %> </h1>
 
     <%
         for(int j = 0; j < CarPark.parkingSlots.length; j++){
             if(CarPark.parkingSlots[j] != null){
     %>
-
-    <style>
-        #car<%=j%>{
-            visibility: visible;
-            background-color: <%= CarPark.parkingSlots[j].carColor %>;
-        }
-    </style>
-
+                <style>
+                    #car<%=j%>{
+                        visibility: visible;
+                        background-color: <%= CarPark.parkingSlots[j].carColor %>;
+                    }
+                </style>
     <%
             }else{
     %>
-    <style>
-        #car<%=j%>{
-            visibility: hidden;
-        }
-    </style>
+                <style>
+                    #car<%=j%>{
+                        visibility: hidden;
+                    }
+                </style>
     <%
             }
         }
-        %>
+    %>
 
 </body>
 </html>

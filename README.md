@@ -5,9 +5,11 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 
 -------------------------------------------------------------------------------------------------------------------
 
-**Upcoming cute feature preview:**
+**New cute feature:**
 
-Das Frauen-Parkhäusschen im Prinzessin-Style muss vor Start spielerisch betreten werden. :eyes:
+Das Frauen-Parkhäusschen im Prinzessin-Style muss vor Start spielerisch betreten werden. :smile:
+
+Gespielt wird, indem man per Drag & Drop die Prinzessin-Fahrerin auf das Schloss artige Parkhaus zieht. :octocat:
 
 ![alt text](https://s20.directupload.net/images/210620/yafn5g2q.jpg) 
 

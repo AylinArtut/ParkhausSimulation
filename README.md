@@ -3,11 +3,13 @@
 Ein webbasiertes Projekt für das Studium mit Java, welches ein Parkhausverwaltungssystem simuliert. :tulip:
 Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen Kanbanboard-Aktivitäten. :frog:
 
-Notiz:
+-------------------------------------------------------------------------------------------------------------------
 
-Man sollte JUnittests bereits vor den Methoden schreiben, aber das habe ich gedanklich nicht hinbekommen.
-Meine Methoden habe ich dann schließlich ganz anders realisiert, als ich es ursprünglich plante ...
-Jedenfalls wollte ich da mal ehrlich sein & nicht den Quellcode kurz löschen, die Tests dazu schreiben & es wieder einfügen.
+**Upcoming cute feature preview:**
+
+Das Frauen-Parkhäusschen im Prinzessin-Style muss vor Start spielerisch betreten werden. :eyes:
+
+![alt text](https://s20.directupload.net/images/210620/yafn5g2q.jpg) 
 
 -------------------------------------------------------------------------------------------------------------------
 **Screenshot des aktuellen Stands:**

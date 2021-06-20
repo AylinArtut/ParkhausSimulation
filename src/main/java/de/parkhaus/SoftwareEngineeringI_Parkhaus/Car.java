@@ -8,6 +8,7 @@ public class Car{
     public Timestamp leaveTime;
 
     public String carColor;
+    public double price;
 
     public Car(){
         setCarColor();

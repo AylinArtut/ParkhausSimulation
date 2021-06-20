@@ -5,18 +5,21 @@ import java.util.Random;
 
 public class CarPark{
 
-    public String carParkName;
+    private String carParkName;
 
     public Car[] parkingSlots;
 
-    public Random number = new Random();
-    public int value;
+    public int leftCarSize = 0;
+    public Car[] leftCars = new Car[100];
 
-    double pricePerHour = 1.0;
+    private Random number = new Random();
+    private int value;
+
+    private int pricePerHour = 2;
 
     public int parkedCars;
 
-    public CarPark(String carParkName, int parkingSlotSizes, double pricePerHour){
+    public CarPark(String carParkName, int parkingSlotSizes, int pricePerHour){
         this.carParkName = carParkName;
         this.pricePerHour = pricePerHour;
 
@@ -56,6 +59,8 @@ public class CarPark{
     }
 
     public String leaveCarPark(){
+        Car car = null;
+
         do{
             if(parkedCars >= 1) {
                 this.value = number.nextInt(parkingSlots.length);
@@ -65,10 +70,27 @@ public class CarPark{
         }while(parkingSlots[this.value] == null);
 
         if(parkingSlots[this.value] != null){
+            parkingSlots[this.value].leaveTime = setTimeStamp();
             parkedCars -= 1;
+            leftCarSize += 1;
+            car = parkingSlots[this.value];
+            for(int j = 0; j < leftCarSize; j++) {
+                if(leftCars[j] == null){
+                    leftCars[j] = car;
+                    calculatePrice(car);
+                    break;
+                }
+            }
             parkingSlots[this.value] = null;
         }
 
         return "Im Parkhaus sind nun: " + parkedCars + " Autos.";
+    }
+
+    public double calculatePrice(Car car){
+        long durationTime = car.leaveTime.getTime() - car.enterTime.getTime();
+        durationTime = (int) ((durationTime / (1000*60*60)) % 24);
+        car.price = durationTime * pricePerHour;
+        return car.price;
     }
 }

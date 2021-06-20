@@ -12,7 +12,7 @@ public class CarParkServlet extends HttpServlet {
     CarPark carPark;
 
     public void init() {
-        carPark = new CarPark("TraumParkhaus", 10, 0);
+        carPark = new CarPark("TraumParkhaus", 10, 2);
     }
 
     @Override

@@ -27,6 +27,18 @@
             border: 2px solid black;
             border-radius: 25px;
         }
+
+        table {
+            width:100%;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
     </style>
 
 </head>
@@ -38,7 +50,6 @@
 <form action="carParkServlet" method="POST">
     <input type="submit" name="spawnCar" value="Spawn Car & in Parkhaus reinstopfen" />
     <input type="submit" name="kickCar" value="Car aus Parkhaus rausschmeißen" />
-    <input type="submit" name="showList" value="Komische Liste anzeigen" />
 </form>
 
 <%
@@ -53,7 +64,28 @@
 
 <h1> <%= request.getAttribute("information") %> </h1>
 
+<table>
+    <tr>
+        <th>Auto, Nr.</th>
+        <th>Preis</th>
+        <th>EnterTime</th>
+        <th>LeaveTime</th>
+    </tr>
 <%
+        carPark = ((CarPark) request.getAttribute("carPark"));
+        for(int i = 0; i < carPark.leftCarSize; i++){
+%>
+    <tr>
+            <td><%= i %></td>
+            <td><%= carPark.leftCars[i].price %></td>
+            <td><%= carPark.leftCars[i].enterTime %></td>
+            <td><%= carPark.leftCars[i].leaveTime %></td>
+    </tr>
+<%
+        }
+    %>
+</table>
+    <%
     for(int j = 0; j < carPark.parkingSlots.length; j++){
         if(carPark.parkingSlots[j] != null){
 %>

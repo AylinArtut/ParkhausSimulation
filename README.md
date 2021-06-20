@@ -75,34 +75,34 @@ Jetzt auch mit der Möglichkeit das Parkhaus zu verlassen:
       <td>Planung der benötigten Methoden für Klasse "CarPark"</td>
     </tr>
     <tr>
+      <td></td>
       <td>Erstellung der JUnittests für die Klasse "Car"</td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
+      <td></td>
       <td>Erstellung der JUnittests für die Klasse "CarPark"</td>
       <td></td>
-      <td></td>
     </tr>
     <tr>
+      <td></td>
       <td></td>
       <td>Erstellung der Methoden für die Klasse "Car"</td>
-      <td></td>
     </tr>
     <tr>
+      <td></td>
       <td></td>
       <td>Erstellung der Methoden für die Klasse "CarPark"</td>
-      <td></td>
     </tr>
     <tr>
+      <td></td>
       <td></td>
       <td>Erstellung der Benutzeroberfläche mit Buttons & Co.</td>
-      <td></td>
     </tr>
     <tr>
+      <td></td>
+      <td></td>
       <td>Optional: Mini-Browsergame mit Hinzunahme von jQuery (Auto-Steuerung etc.)</td>
-      <td></td>
-      <td></td>
     </tr>
   </tbody>
 </table>

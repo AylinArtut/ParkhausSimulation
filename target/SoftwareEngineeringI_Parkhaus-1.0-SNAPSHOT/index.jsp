@@ -1,77 +1,52 @@
-<%@ page import="de.parkhaus.SoftwareEngineeringI_Parkhaus.Car" %>
-<%@ page import="de.parkhaus.SoftwareEngineeringI_Parkhaus.CarPark" %>
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-
-    <title>Parkhaus Simulation</title>
-
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
     <style>
-        .parkingSlot{
-            margin-top: 15px;
-            margin-left: 10px;
-            background-color: lightgray;
-            height: 140px;
-            width: 110px;
-            border: 2px solid black;
-            display: inline-block;
+        body{
+            background-image: url("gras.png");
         }
 
-        .car{
-            visibility: hidden;
-            margin-top: 24px;
-            margin-left: 20px;
-            height: 85px;
-            width: 60px;
-            border: 2px solid black;
-            border-radius: 25px;
+        #car {
+            width: 200px;
+            height: 150px;
+            background-image: url("princessCar.png");
+            background-repeat: no-repeat;
+        }
+
+        #carPark {
+            width: 810px;
+            height: 540px;
+            background-image: url("pinkCastle.png");
+            background-repeat: no-repeat;
+            margin: auto;
+            display: block;
         }
     </style>
-
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#car" ).draggable();
+            $( "#carPark" ).droppable({
+                drop: function( event, ui ) {
+                    $( this )
+                    $('form').submit();
+                }
+            });
+        } );
+    </script>
 </head>
 <body>
+    <div id="car"></div>
+    <div id="carPark"></div>
 
-    <h1> Das Traum-Parkhaus! ♡ </h1>
-    <br/>
-
-    <form action="hello-servlet" method="get">
-        <input type="submit" name="spawnCar" value="Spawn Car & in Parkhaus reinstopfen" />
-        <input type="submit" name="kickCar" value="Car aus Parkhaus rausschmeißen" />
+    <form action="carParkServlet" method="POST" name="form">
+        <input type="submit" name="skipGame" value="Ohne Spiel zum Parkhaus" />
     </form>
-
-    <%
-        for(int i = 0; i < CarPark.parkingSlots.length; i++){
-    %>
-            <div class="parkingSlot"> <div class="car" id="<%="car" + i%>"> </div> </div>
-    <%
-        }
-    %>
-
-    <h1> <%= request.getAttribute("information") %> </h1>
-
-    <%
-        for(int j = 0; j < CarPark.parkingSlots.length; j++){
-            if(CarPark.parkingSlots[j] != null){
-    %>
-                <style>
-                    #car<%=j%>{
-                        visibility: visible;
-                        background-color: <%= CarPark.parkingSlots[j].carColor %>;
-                    }
-                </style>
-    <%
-            }else{
-    %>
-                <style>
-                    #car<%=j%>{
-                        visibility: hidden;
-                    }
-                </style>
-    <%
-            }
-        }
-    %>
-
 </body>
 </html>

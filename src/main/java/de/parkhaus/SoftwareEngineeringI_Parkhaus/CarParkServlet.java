@@ -5,34 +5,25 @@ import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
+@WebServlet(name = "carParkServlet", value = "/carParkServlet")
 public class CarParkServlet extends HttpServlet {
     String information;
+    Car car;
+    CarPark carPark;
 
     public void init() {
-
+        carPark = new CarPark("TraumParkhaus", 10, 0);
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        /*response.setContentType("text/html");
-
-          PrintWriter out = response.getWriter();
-          out.println("<html><body>");
-          out.println("<h1>" + "</h1>");
-          out.println("<br>");
-          out.println("</body></html>");*/
-    }
-
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        Car car = new Car();
-        CarPark carPark = new CarPark("TraumParkhaus", 10, 0);
+        car = new Car();
 
         String spawnCar = request.getParameter("spawnCar");
         String kickCar = request.getParameter("kickCar");
 
         if (kickCar != null) {
-            this.information = carPark.leaveCarPark(car);
+            this.information = carPark.leaveCarPark();
         }
 
         if (spawnCar != null) {
@@ -42,9 +33,6 @@ public class CarParkServlet extends HttpServlet {
         request.setAttribute("car", car);
         request.setAttribute("carPark", carPark);
         request.setAttribute("information", this.information);
-        request.getRequestDispatcher("index.jsp").forward(request, response);
-    }
-
-    public void destroy() {
+        request.getRequestDispatcher("CarPark.jsp").forward(request, response);
     }
 }

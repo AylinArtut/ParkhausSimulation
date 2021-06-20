@@ -1,22 +1,26 @@
 package de.parkhaus.SoftwareEngineeringI_Parkhaus;
 
 import java.sql.Timestamp;
+import java.util.Random;
 
 public class CarPark{
 
     public String carParkName;
-    public static int parkingSlotSize = 10;
 
-    public static Car[] parkingSlots = new Car[parkingSlotSize];
+    public Car[] parkingSlots;
 
-    double pricePerHour;
+    public Random number = new Random();
+    public int value;
 
-    public static int parkedCars;
+    double pricePerHour = 1.0;
+
+    public int parkedCars;
 
     public CarPark(String carParkName, int parkingSlotSizes, double pricePerHour){
         this.carParkName = carParkName;
-        parkingSlotSize = parkingSlotSizes;
         this.pricePerHour = pricePerHour;
+
+        parkingSlots = new Car[parkingSlotSizes];
     }
 
     private Timestamp setTimeStamp(){
@@ -24,12 +28,18 @@ public class CarPark{
     }
 
     private void parkingCar(Car car){
-        for(int i = 0; i < parkingSlots.length; i++){
-            if(parkingSlots[i] == null){
-                parkingSlots[i] = car;
-                parkedCars += 1;
-                break;
-            }
+         do{
+             if(parkedCars < parkingSlots.length) {
+                 this.value = number.nextInt(parkingSlots.length);
+             }else{
+                 break;
+             }
+         }while(parkingSlots[this.value] != null);
+
+        if((parkedCars < parkingSlots.length) && (parkingSlots[this.value] == null)){
+            parkingSlots[this.value] = car;
+            parkingSlots[this.value].enterTime = setTimeStamp();
+            parkedCars += 1;
         }
     }
 
@@ -38,38 +48,27 @@ public class CarPark{
 
         car.setCarColor();
 
-        car.enterTime = setTimeStamp();
-
-        if(parkedCars == parkingSlotSize){
+        if(parkedCars == parkingSlots.length){
             return "Im Parkhaus sind nun: " + parkedCars + " Autos. LIMIT IST ERREICHT; GEH ANDERES PARKHAUS SUCHEN!";
-        }
-
-        return "Im Parkhaus sind nun: " + parkedCars + " Autos.";
-    }
-
-    public String leaveCarPark(Car car){
-        for(int i = 0; i < parkingSlots.length; i++){
-            if(parkingSlots[i] != null){
-                parkingSlots[i] = null;
-                parkedCars -= 1;
-                break;
-           }
-        }
-        return "Im Parkhaus sind nun: " + parkedCars + " Autos.";
-    }
-
-    private void calculatePrice(Car car){
-        long parkingTime = car.leaveTime.getTime() - car.enterTime.getTime();
-        if(parkingTime >= pricePerHour){
-            double parkingPrice = (parkingTime / pricePerHour) * pricePerHour;
         }else{
-            double parkingPrice = 0;
+            return "Im Parkhaus sind nun: " + parkedCars + " Autos.";
         }
     }
 
-    public void kickCarOutOfCarPark(Car car){
-        car.leaveTime = setTimeStamp();
+    public String leaveCarPark(){
+        do{
+            if(parkedCars >= 1) {
+                this.value = number.nextInt(parkingSlots.length);
+            }else{
+                break;
+            }
+        }while(parkingSlots[this.value] == null);
 
-        calculatePrice(car);
+        if(parkingSlots[this.value] != null){
+            parkedCars -= 1;
+            parkingSlots[this.value] = null;
+        }
+
+        return "Im Parkhaus sind nun: " + parkedCars + " Autos.";
     }
 }

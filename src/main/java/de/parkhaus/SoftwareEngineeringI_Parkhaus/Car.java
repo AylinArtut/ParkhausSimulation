@@ -4,9 +4,6 @@ import java.sql.Timestamp;
 import java.util.Random;
 
 public class Car{
-
-    public String carRegistrationNumber;
-
     public Timestamp enterTime;
     public Timestamp leaveTime;
 

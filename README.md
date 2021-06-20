@@ -13,6 +13,10 @@ Gespielt wird, indem man per Drag & Drop die Prinzessin-Fahrerin auf das Schloss
 
 ![alt text](https://s20.directupload.net/images/210620/yafn5g2q.jpg) 
 
+Jetzt auch mit Tabelle der Preise für die Autos, welche das Parkhaus verlassen haben:
+
+![alt text](https://s20.directupload.net/images/210620/r8drsh2c.jpg) 
+
 -------------------------------------------------------------------------------------------------------------------
 **Screenshot des aktuellen Stands:**
 

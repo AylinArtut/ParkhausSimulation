@@ -1,0 +1,31 @@
+.parkingSlot{
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: lightgray;
+    height: 140px;
+    width: 110px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.car{
+    visibility: hidden;
+    margin-top: 24px;
+    margin-left: 20px;
+    height: 85px;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}

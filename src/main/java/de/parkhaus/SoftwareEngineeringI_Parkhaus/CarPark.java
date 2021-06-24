@@ -15,7 +15,7 @@ public class CarPark{
     private Random number = new Random();
     private int value;
 
-    private int pricePerHour = 2;
+    private double pricePerHour = 1.5;
 
     public int parkedCars;
 
@@ -41,7 +41,7 @@ public class CarPark{
 
         if((parkedCars < parkingSlots.length) && (parkingSlots[this.value] == null)){
             parkingSlots[this.value] = car;
-            parkingSlots[this.value].enterTime = setTimeStamp();
+            parkingSlots[this.value].setEnterTime(setTimeStamp());
             parkedCars += 1;
         }
     }
@@ -49,18 +49,14 @@ public class CarPark{
     public String putCarToCarPark(Car car){
         parkingCar(car);
 
-        car.setCarColor();
-
         if(parkedCars == parkingSlots.length){
-            return "Im Parkhaus sind nun: " + parkedCars + " Autos. LIMIT IST ERREICHT; GEH ANDERES PARKHAUS SUCHEN!";
+            return "Im Parkhaus sind nun: " + parkedCars + " Autos. Das Limit ist erreicht, keine Parkplätze frei.";
         }else{
             return "Im Parkhaus sind nun: " + parkedCars + " Autos.";
         }
     }
 
     public String leaveCarPark(){
-        Car car = null;
-
         do{
             if(parkedCars >= 1) {
                 this.value = number.nextInt(parkingSlots.length);
@@ -70,10 +66,10 @@ public class CarPark{
         }while(parkingSlots[this.value] == null);
 
         if(parkingSlots[this.value] != null){
-            parkingSlots[this.value].leaveTime = setTimeStamp();
+            parkingSlots[this.value].setLeaveTime(setTimeStamp());
             parkedCars -= 1;
             leftCarSize += 1;
-            car = parkingSlots[this.value];
+            Car car = parkingSlots[this.value];
             for(int j = 0; j < leftCarSize; j++) {
                 if(leftCars[j] == null){
                     leftCars[j] = car;
@@ -88,9 +84,9 @@ public class CarPark{
     }
 
     public double calculatePrice(Car car){
-        long durationTime = car.leaveTime.getTime() - car.enterTime.getTime();
+        long durationTime = car.getLeaveTime().getTime() - car.getEnterTime().getTime();
         durationTime = (int) ((durationTime / (1000*60*60)) % 24);
-        car.price = durationTime * pricePerHour;
-        return car.price;
+        car.setPrice(durationTime * pricePerHour);
+        return car.getPrice();
     }
 }

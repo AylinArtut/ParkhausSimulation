@@ -8,20 +8,20 @@
     <link rel="stylesheet" href="/resources/demos/style.css">
     <style>
         body{
-            background-image: url("gras.png");
+            background-image: url("Images/gras.png");
         }
 
         #car {
             width: 200px;
             height: 150px;
-            background-image: url("princessCar.png");
+            background-image: url("Images/princessCar.png");
             background-repeat: no-repeat;
         }
 
         #carPark {
             width: 810px;
             height: 540px;
-            background-image: url("pinkCastle.png");
+            background-image: url("Images/pinkCastle.png");
             background-repeat: no-repeat;
             margin: auto;
             display: block;

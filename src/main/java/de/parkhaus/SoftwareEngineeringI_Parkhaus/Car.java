@@ -1,6 +1,9 @@
 package de.parkhaus.SoftwareEngineeringI_Parkhaus;
 
 import java.sql.Timestamp;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Random;
 
 public class Car{
@@ -35,7 +38,6 @@ public class Car{
     private String registrationNumber;
     private Timestamp enterTime;
     private Timestamp leaveTime;
-
     private String carColor;
     private double price;
 
@@ -72,35 +74,37 @@ public class Car{
     }
 
     public Car(){
-        setCarColor();
-        setRegistrationNumber();
+        Random randomNumber = new Random();
+        setCarColor(randomNumber);
+        setRegistrationNumber(randomNumber);
     }
 
-    public String setCarColor(){
-        Random obj = new Random();
-        this.carColor = String.format("#%06x", obj.nextInt(0xffffff + 1));
+    public String formatDate(Timestamp timeStamp){
+        SimpleDateFormat sdf3 = new SimpleDateFormat("dd.MM.yy, HH:mm");
+        return sdf3.format(timeStamp);
+    }
+
+    public String setCarColor(Random randomNumber){
+        this.carColor = String.format("#%06x", randomNumber.nextInt(0xffffff + 1));
         return this.carColor;
     }
 
-    public String setRegistrationNumber(){
-        Random r = new Random();
-
-        int firstLoop = r.nextInt(100);
-
+    public String setRegistrationNumber(Random randomNumber){
+        int firstLoop = randomNumber.nextInt(100);
         String carLocation;
 
         if(firstLoop <= 90){
-            carLocation = neighrestLocations[r.nextInt(neighrestLocations.length)];
+            carLocation = neighrestLocations[randomNumber.nextInt(neighrestLocations.length)];
         }else{
-            carLocation = location[r.nextInt(location.length)];
+            carLocation = location[randomNumber.nextInt(location.length)];
         }
 
-        char firstLetter = (char)(r.nextInt(26) + 'A');
-        char secondLetter = (char)(r.nextInt(26) + 'A');
+        char firstLetter = (char)(randomNumber.nextInt(26) + 'A');
+        char secondLetter = (char)(randomNumber.nextInt(26) + 'A');
 
-        int number = r.nextInt(9999);
+        int numbers = randomNumber.nextInt(9999);
 
-        this.registrationNumber = carLocation + "  " + firstLetter + "" + secondLetter + "  " + number;
+        this.registrationNumber = carLocation + "  " + firstLetter + "" + secondLetter + "  " + numbers;
         return this.registrationNumber;
     }
 }

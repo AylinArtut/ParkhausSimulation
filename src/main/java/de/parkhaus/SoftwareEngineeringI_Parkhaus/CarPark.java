@@ -6,17 +6,12 @@ import java.util.Random;
 public class CarPark{
 
     private String carParkName;
-
     public Car[] parkingSlots;
-
     public int leftCarSize = 0;
     public Car[] leftCars = new Car[100];
-
     private Random number = new Random();
     private int value;
-
-    private double pricePerHour = 1.5;
-
+    private double pricePerHour;
     public int parkedCars;
 
     public CarPark(String carParkName, int parkingSlotSizes, int pricePerHour){
@@ -85,7 +80,8 @@ public class CarPark{
 
     public double calculatePrice(Car car){
         long durationTime = car.getLeaveTime().getTime() - car.getEnterTime().getTime();
-        durationTime = (int) ((durationTime / (1000*60*60)) % 24);
+        // Changed it to "minutes":
+        durationTime = (int) (durationTime / 1000) / 60;
         car.setPrice(durationTime * pricePerHour);
         return car.getPrice();
     }

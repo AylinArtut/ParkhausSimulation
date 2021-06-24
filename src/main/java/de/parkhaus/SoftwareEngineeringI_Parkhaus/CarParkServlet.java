@@ -6,17 +6,17 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
 @WebServlet(name = "carParkServlet", value = "/carParkServlet")
-public class CarParkServlet extends HttpServlet {
+public class CarParkServlet extends HttpServlet{
     String information;
     Car car;
     CarPark carPark;
 
-    public void init() {
-        carPark = new CarPark("TraumParkhaus", 10, 2);
+    public void init(){
+        carPark = new CarPark("TraumParkhaus", 10, 1);
     }
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         car = new Car();
 
         String spawnCar = request.getParameter("spawnCar");

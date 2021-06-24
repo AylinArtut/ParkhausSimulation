@@ -1,4 +1,5 @@
 <%@ page import="de.parkhaus.SoftwareEngineeringI_Parkhaus.CarPark" %>
+<%@ page import="java.sql.Timestamp" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <html>
 <head>
@@ -9,8 +10,8 @@
     <h1> Das Traum-Parkhaus! ♡ </h1>
     <br/>
     <form action="carParkServlet" method="POST">
-        <input type="submit" name="spawnCar" value="Spawn Car & in Parkhaus reinstopfen"/>
-        <input type="submit" name="kickCar" value="Car aus Parkhaus rausschmeißen"/>
+        <input type="submit" name="spawnCar" value="Parkhaus betreten"/>
+        <input type="submit" name="kickCar" value="Parkhaus verlassen"/>
     </form>
     <%
         CarPark carPark = ((CarPark) request.getAttribute("carPark"));
@@ -38,9 +39,9 @@
             <tr>
                 <td> <%= i+1 %> </td>
                 <td> <%= carPark.leftCars[i].getRegistrationNumber() %> </td>
-                <td> <%= carPark.leftCars[i].getPrice() %> </td>
-                <td> <%= carPark.leftCars[i].getEnterTime() %> </td>
-                <td> <%= carPark.leftCars[i].getLeaveTime() %> </td>
+                <td> <%= carPark.leftCars[i].getPrice() %> € </td>
+                <td> <%= carPark.leftCars[i].formatDate(carPark.leftCars[i].getEnterTime()) %> Uhr </td>
+                <td> <%= carPark.leftCars[i].formatDate(carPark.leftCars[i].getLeaveTime()) %> Uhr </td>
             </tr>
     <%
         }

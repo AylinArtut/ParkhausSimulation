@@ -65,10 +65,10 @@ public class CarPark{
             parkedCars -= 1;
             leftCarSize += 1;
             Car car = parkingSlots[this.value];
+            car.setPrice(calculatePrice(car));
             for(int j = 0; j < leftCarSize; j++) {
                 if(leftCars[j] == null){
                     leftCars[j] = car;
-                    calculatePrice(car);
                     break;
                 }
             }
@@ -78,11 +78,10 @@ public class CarPark{
         return "Im Parkhaus sind nun: " + parkedCars + " Autos.";
     }
 
-    public double calculatePrice(Car car){
+    private double calculatePrice(Car car){
         long durationTime = car.getLeaveTime().getTime() - car.getEnterTime().getTime();
-        // Changed it to "minutes":
-        durationTime = (int) (durationTime / 1000) / 60;
-        car.setPrice(durationTime * pricePerHour);
-        return car.getPrice();
+        // Changed it to "seconds":
+        durationTime = (int) (durationTime / 1000);
+        return durationTime * pricePerHour;
     }
 }

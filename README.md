@@ -101,6 +101,11 @@ Jetzt auch mit der Möglichkeit das Parkhaus zu verlassen:
     </tr>
     <tr>
       <td></td>
+      <td>Erstellung von Interfaces für die Klassen</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
       <td></td>
       <td>Optional: Mini-Browsergame mit Hinzunahme von jQuery (Auto-Steuerung etc.)</td>
     </tr>

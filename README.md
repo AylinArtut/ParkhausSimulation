@@ -76,8 +76,8 @@ Jetzt auch mit der Möglichkeit das Parkhaus zu verlassen:
     </tr>
     <tr>
       <td></td>
-      <td>Erstellung der JUnittests für die Klasse "Car"</td>
       <td></td>
+      <td>Erstellung der JUnittests für die Klasse "Car"</td>
     </tr>
     <tr>
       <td></td>

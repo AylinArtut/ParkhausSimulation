@@ -101,8 +101,8 @@ Jetzt auch mit der Möglichkeit das Parkhaus zu verlassen:
     </tr>
     <tr>
       <td></td>
-      <td>Erstellung von Interfaces für die Klassen</td>
       <td></td>
+      <td>Erstellung von Interfaces für die Klassen</td>
     </tr>
     <tr>
       <td></td>

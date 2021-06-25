@@ -13,7 +13,7 @@ class CarParkTest {
         carPark = new CarPark("TraumParkhaus", 10, 1);
         car = new Car();
     }
-    
+
     @Test
     void putCarToCarPark() {
         carPark.putCarToCarPark(car);

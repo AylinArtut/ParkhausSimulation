@@ -3,7 +3,7 @@ package de.parkhaus.SoftwareEngineeringI_Parkhaus;
 import java.sql.Timestamp;
 import java.util.Random;
 
-public class CarPark{
+public class CarPark implements CarParkInterface {
 
     private String carParkName;
     public Car[] parkingSlots;

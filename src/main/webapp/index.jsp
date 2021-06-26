@@ -42,6 +42,10 @@
     </script>
 </head>
 <body>
+    <audio controls autoplay>
+        <source src="Music/SNES_Super_Mario_Kart.mp3" type="audio/ogg">
+    </audio>
+
     <div id="car"></div>
     <div id="carPark"></div>
 

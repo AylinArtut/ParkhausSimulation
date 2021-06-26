@@ -42,7 +42,11 @@
     </script>
 </head>
 <body>
-    <div id="car"></div>
+    <audio controls autoplay>
+        <source src="Music/SNES_Super_Mario_Kart.mp3" type="audio/ogg">
+    </audio>
+
+<div id="car"></div>
     <div id="carPark"></div>
 
     <form action="carParkServlet" method="POST" name="form">

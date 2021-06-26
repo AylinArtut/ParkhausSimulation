@@ -1,4 +1,4 @@
-![alt text](https://s20.directupload.net/images/210626/9v5km97y.jpg)
+![alt text](https://s20.directupload.net/images/210626/3stek9mm.jpg)
 
 Ein webbasiertes Projekt für das Studium mit Java, welches ein Parkhausverwaltungssystem simuliert. :tulip:
 Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen Kanbanboard-Aktivitäten. :frog:

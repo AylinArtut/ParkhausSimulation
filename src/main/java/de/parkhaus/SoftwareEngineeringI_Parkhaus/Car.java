@@ -38,6 +38,7 @@ public class Car implements CarInterface {
     private Timestamp leaveTime;
     private String carColor;
     private double price = 0.0;
+    private Random random = new Random();
 
     public String getRegistrationNumber() {
         return this.registrationNumber;
@@ -80,35 +81,29 @@ public class Car implements CarInterface {
     }
 
     public Car() {
-        Random randomNumber = new Random();
-        this.carColor = generateCarColor(randomNumber);
-        this.registrationNumber = generateRegistrationNumber(randomNumber);
+        this.carColor = generateCarColor();
+        this.registrationNumber = generateRegistrationNumber();
     }
 
-    public String formatDate(Timestamp timeStamp) {
-        SimpleDateFormat sdf3 = new SimpleDateFormat("dd.MM.yy, HH:mm");
-        return sdf3.format(timeStamp);
+    private String generateCarColor() {
+        return String.format("#%06x", this.random.nextInt(0xffffff + 1));
     }
 
-    private String generateCarColor(Random randomNumber) {
-        return String.format("#%06x", randomNumber.nextInt(0xffffff + 1));
-    }
-
-    private String generateRegistrationNumber(Random randomNumber) {
-        int firstLoop = randomNumber.nextInt(100);
+    private String generateRegistrationNumber() {
+        int firstLoop = this.random.nextInt(100);
         String carLocation;
 
         if (firstLoop <= 90) {
-            carLocation = neighrestLocations[randomNumber.nextInt(neighrestLocations.length)];
+            carLocation = neighrestLocations[this.random.nextInt(neighrestLocations.length)];
         } else {
-            carLocation = location[randomNumber.nextInt(location.length)];
+            carLocation = location[this.random.nextInt(location.length)];
         }
 
-        char firstLetter = (char) (randomNumber.nextInt(26) + 'A');
-        char secondLetter = (char) (randomNumber.nextInt(26) + 'A');
+        char firstLetter = (char) (this.random.nextInt(26) + 'A');
+        char secondLetter = (char) (this.random.nextInt(26) + 'A');
 
-        int numbers = randomNumber.nextInt(9999);
+        int numbers = this.random.nextInt(9999);
 
-        return carLocation + "  " + firstLetter + "" + secondLetter + "  " + numbers;
+        return  String.format("%s %c%c %d", carLocation, firstLetter, secondLetter, numbers);
     }
 }

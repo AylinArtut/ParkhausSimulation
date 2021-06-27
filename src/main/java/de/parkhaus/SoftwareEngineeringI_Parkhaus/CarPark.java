@@ -44,10 +44,14 @@ public class CarPark implements CarParkInterface {
     public String putCarToCarPark(Car car){
         parkingCar(car);
 
+        String defaultString = String.format("Im Parkhaus sind nun %d Autos.", parkedCars);
+        String limitString = "Das Limit ist erreicht, keine Parkplätze frei.";
+
         if(parkedCars == parkingSlots.length){
-            return "Im Parkhaus sind nun: " + parkedCars + " Autos. Das Limit ist erreicht, keine Parkplätze frei.";
+            return String.format("%s %s", defaultString, limitString);
+
         }else{
-            return "Im Parkhaus sind nun " + parkedCars + " Autos.";
+            return defaultString;
         }
     }
 
@@ -74,13 +78,11 @@ public class CarPark implements CarParkInterface {
             }
             parkingSlots[this.value] = null;
         }
-
-        return "Im Parkhaus sind nun: " + parkedCars + " Autos.";
+        return String.format("Im Parkhaus sind nun %d Autos.", parkedCars);
     }
 
     private double calculatePrice(Car car){
         long durationTime = car.getLeaveTime().getTime() - car.getEnterTime().getTime();
-        // Changed it to "seconds":
         durationTime = (int) (durationTime / 1000);
         return durationTime * pricePerHour;
     }

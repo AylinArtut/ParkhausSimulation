@@ -5,7 +5,7 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 
 ![alt text](https://s20.directupload.net/images/210627/9oaulf55.jpg) 
 
-![alt text](https://s20.directupload.net/images/210627/kresprw5.jpg) 
+![alt text](https://s20.directupload.net/images/210627/4z4ci9nj.jpg) 
 
 -------------------------------------------------------------------------------------------------------------------
 

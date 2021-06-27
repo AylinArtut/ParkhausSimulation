@@ -8,23 +8,64 @@
     <link rel="stylesheet" href="/resources/demos/style.css">
     <style>
         body{
-            background-image: url("Images/gras.png");
+            background-color: #f2f2f2;
         }
 
-        #car {
-            width: 200px;
+        #car{
+            width: 100px;
             height: 150px;
-            background-image: url("Images/princessCar.png");
             background-repeat: no-repeat;
+            position: relative;
+            left: 20px;
+            top: 300px;
         }
 
-        #carPark {
-            width: 810px;
+        #carPark{
+            width: auto;
             height: 540px;
-            background-image: url("Images/pinkCastle.png");
             background-repeat: no-repeat;
-            margin: auto;
-            display: block;
+            float: right;
+            margin-right: 100px;
+            margin-top: 89px;
+        }
+
+        #background{
+            width: 1260px;
+            height: 571px;
+            background-image: url("Images/div-background.jpg");
+            margin-bottom: 30px;
+            margin-left: 51px;
+            margin-top: 30px;
+        }
+
+        #form{
+            margin-left: 50px;
+        }
+
+        #skipGame{
+            width: 215px;
+            height: 38px;
+            font-weight: bold;
+            font-size: 15px
+        }
+
+        #audio{
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+
+        #princessParkhouse{
+            margin-top: 20px;
+            margin-left: 50px;
+            color: #d27892;
+            font-weight: bold;
+        }
+
+        #description{
+            margin-top: 20px;
+            margin-left: 50px;
+            font-weight: bold;
+            font-size: 21px;
         }
     </style>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -42,15 +83,27 @@
     </script>
 </head>
 <body>
-    <audio controls autoplay>
+    <h1 id="princessParkhouse">Ein für Frauen konzipiertes Parkhäusschen ❤</h1>
+    <p id="description">
+        Helfen Sie der Dame unfallfrei zum schlossartigen Parkhaus zu gelangen
+        indem Sie ihr Auto per Drag & Drop drüber ziehen.
+    </p>
+
+    <audio controls autoplay id="audio">
         <source src="Music/SNES_Super_Mario_Kart.mp3" type="audio/ogg">
     </audio>
 
-<div id="car"></div>
-    <div id="carPark"></div>
+    <div id="background">
+        <div id="car">
+            <img src="Images/princessCar.png">
+        </div>
+        <div id="carPark">
+            <img src="Images/pinkCastle.png">
+        </div>
+    </div>
 
-    <form action="carParkServlet" method="POST" name="form">
-        <input type="submit" name="skipGame" value="Ohne Spiel zum Parkhaus" />
+    <form action="carParkServlet" method="POST" name="form" id="form">
+        <input type="submit" name="skipGame" id="skipGame" value="Ohne Spiel zum Parkhaus" />
     </form>
 </body>
 </html>

@@ -89,7 +89,7 @@
         indem Sie ihr Auto per Drag & Drop drüber ziehen.
     </p>
 
-    <audio controls autoplay id="audio">
+    <audio controls autoplay hidden id="audio">
         <source src="Music/SNES_Super_Mario_Kart.mp3" type="audio/ogg">
     </audio>
 

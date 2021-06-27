@@ -47,7 +47,7 @@ public class CarPark implements CarParkInterface {
         if(parkedCars == parkingSlots.length){
             return "Im Parkhaus sind nun: " + parkedCars + " Autos. Das Limit ist erreicht, keine Parkplätze frei.";
         }else{
-            return "Im Parkhaus sind nun: " + parkedCars + " Autos.";
+            return "Im Parkhaus sind nun " + parkedCars + " Autos.";
         }
     }
 

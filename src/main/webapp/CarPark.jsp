@@ -4,13 +4,43 @@
 <head>
     <link rel="stylesheet" href="Style.css">
     <title> Parkhaus Simulation </title>
+    <style>
+        body{
+            background-color: #ffe4e14d;
+        }
+
+        #information{
+            margin-left: 10px;
+        }
+
+        #information{
+            margin-left: 10px;
+        }
+
+        #spawnCar, #kickCar{
+            margin-left: 10px;
+            margin-top: 10px;
+            width: 140px;
+            height: 38px;
+            font-weight: bold;
+            font-size: 15px
+        }
+
+        table{
+            margin-left: 10px;
+            width: 1267px;
+            background-color: white;
+        }
+
+        td, th{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1> Das Traum-Parkhaus! ♡ </h1>
-    <br/>
     <form action="carParkServlet" method="POST">
-        <input type="submit" name="spawnCar" value="Spawn Car & in Parkhaus reinstopfen"/>
-        <input type="submit" name="kickCar" value="Car aus Parkhaus rausschmeißen"/>
+        <input type="submit" name="spawnCar" id="spawnCar" value="Auto reinlassen"/>
+        <input type="submit" name="kickCar" id="kickCar" value="Auto rauslassen"/>
     </form>
     <%
         CarPark carPark = ((CarPark) request.getAttribute("carPark"));
@@ -22,7 +52,7 @@
     <%
         }
     %>
-    <h1> <%= request.getAttribute("information") %> </h1>
+    <h2 id="information"> <%= request.getAttribute("information") %> </h2>
     <table>
         <tr>
             <th> Auto, Nr. </th>
@@ -36,9 +66,9 @@
     %>
             <tr>
                 <td> <%= i+1 %> </td>
-                <td> <%= carPark.leftCars[i].price %> </td>
-                <td> <%= carPark.leftCars[i].enterTime %> </td>
-                <td> <%= carPark.leftCars[i].leaveTime %> </td>
+                <td> <%= carPark.leftCars[i].getPrice() %> </td>
+                <td> <%= carPark.leftCars[i].getEnterTime() %> </td>
+                <td> <%= carPark.leftCars[i].getLeaveTime() %> </td>
             </tr>
     <%
         }
@@ -51,7 +81,7 @@
     <style>
         #car<%= j %>{
             visibility: visible;
-            background-color: <%= carPark.parkingSlots[j].carColor %>;
+            background-color: <%= carPark.parkingSlots[j].getCarColor() %>;
         }
     </style>
     <%

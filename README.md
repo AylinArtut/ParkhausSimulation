@@ -3,26 +3,9 @@
 Ein webbasiertes Projekt für das Studium mit Java, welches ein Parkhausverwaltungssystem simuliert. :tulip:
 Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen Kanbanboard-Aktivitäten. :frog:
 
--------------------------------------------------------------------------------------------------------------------
-
-**New cute feature:**
-
 ![alt text](https://s20.directupload.net/images/210627/9oaulf55.jpg) 
 
-Jetzt auch mit Tabelle der Preise für die Autos, welche das Parkhaus verlassen haben:
-
-![alt text](https://s20.directupload.net/images/210624/fs3onkh8.jpg) 
-
--------------------------------------------------------------------------------------------------------------------
-**Screenshot des aktuellen Stands:**
-
-Die bunten (Farbe wird zufällig generiert), ovalen Elemente sollen die Autos darstellen & das Rechteck indem sie sich befinden die Parkplätze:
-
-![alt text](https://bilderupload.org/image/860374329-parkhaus-screenshot.jpg) 
-
-Jetzt auch mit der Möglichkeit das Parkhaus zu verlassen:
-
-![alt text](https://bilderupload.org/image/e55188520-yayy.jpg)
+![alt text](https://s20.directupload.net/images/210627/kresprw5.jpg) 
 
 -------------------------------------------------------------------------------------------------------------------
 

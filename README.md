@@ -103,6 +103,11 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
       <td></td>
       <td></td>
     </tr>
+    <tr>
+      <td>".idea" rausschmeißen & GitIgnore-Datei anlegen :shit:</td>
+      <td></td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
 

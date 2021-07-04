@@ -7,9 +7,11 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 
 Die ganzen Diagramme werden noch digitalisiert & schöner dargestellt ...
 
-Erstmal Klassendiagramm & UseCase Diagramm hochgeladen:
+Klassendiagramm:
 
 ![alt text](https://s20.directupload.net/images/210705/tgwwo7r6.jpg) 
+
+UseCase Diagramm:
 
 ![alt text](https://s20.directupload.net/images/210704/sg2b55zp.jpg) 
 
@@ -105,12 +107,12 @@ Erstmal Klassendiagramm & UseCase Diagramm hochgeladen:
     </tr>
     <tr>
       <td></td>
-      <td>UML-Diagramme auch mit ins GitHub-Repo packen</td>
       <td></td>
+      <td>UML-Diagramme auch mit ins GitHub-Repo packen</td>
     </tr>
     <tr>
-      <td>".idea" rausschmeißen & GitIgnore-Datei anlegen :shit:</td>
       <td></td>
+      <td>".idea" rausschmeißen & GitIgnore-Datei anlegen :shit:</td>
       <td></td>
     </tr>
   </tbody>

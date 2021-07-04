@@ -112,8 +112,8 @@ UseCase Diagramm:
     </tr>
     <tr>
       <td></td>
-      <td>".idea" rausschmeißen & GitIgnore-Datei anlegen :shit:</td>
       <td></td>
+      <td>".idea" rausschmeißen & GitIgnore-Datei anlegen :shit:</td>
     </tr>
   </tbody>
 </table>

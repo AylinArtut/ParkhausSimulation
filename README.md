@@ -7,7 +7,9 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 
 Die ganzen Diagramme werden noch digitalisiert & schöner dargestellt ...
 
-Erstmal UseCase Diagramm hochgeladen:
+Erstmal Klassendiagramm & UseCase Diagramm hochgeladen:
+
+![alt text](https://s20.directupload.net/images/210705/tgwwo7r6.jpg) 
 
 ![alt text](https://s20.directupload.net/images/210704/sg2b55zp.jpg) 
 

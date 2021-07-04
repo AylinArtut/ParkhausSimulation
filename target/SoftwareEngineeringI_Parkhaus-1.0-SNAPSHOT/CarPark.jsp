@@ -26,8 +26,8 @@
             <th> Auto, Nr. </th>
             <th> Kennzeichen </th>
             <th> Preis </th>
-            <th> EnterTime </th>
-            <th> LeaveTime </th>
+            <th> Einfahrtszeit </th>
+            <th> Ausfahrtszeit </th>
         </tr>
     <%
         carPark = ((CarPark) request.getAttribute("carPark"));

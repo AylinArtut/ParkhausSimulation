@@ -3,6 +3,8 @@
 Ein webbasiertes Projekt für das Studium mit Java, welches ein Parkhausverwaltungssystem simuliert. :tulip:
 Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen Kanbanboard-Aktivitäten. :frog:
 
+**ToDo: Begründung, wieso kein in der Vorlesung vorgestelltes "Design Pattern" zu meinem Projekt passt. Und eventuell Erweiterungs-Ideen des Projektes, bei denen dann einige "Design Pattern" an Sinn gewinnen würden. Ich mag "Strategy" total, es hat generell so viele sinnvolle Einsatzmöglichkeiten. Aber für mein "Mini"-Projekt ist einfach keins sinnvoll.** :octocat:
+
 ![alt text](https://s20.directupload.net/images/210627/9oaulf55.jpg) 
 
 ![alt text](https://s20.directupload.net/images/210627/4z4ci9nj.jpg) 
@@ -94,8 +96,8 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
       <td></td>
     </tr>
     <tr>
-      <td>UML-Diagramme auch mit ins GitHub-Repo packen</td>
       <td></td>
+      <td>UML-Diagramme auch mit ins GitHub-Repo packen</td>
       <td></td>
     </tr>
     <tr>

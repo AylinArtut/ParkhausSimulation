@@ -89,11 +89,6 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
       <td>Optional: Mini-Browsergame mit Hinzunahme von jQuery (Auto-Steuerung etc.)</td>
     </tr>
     <tr>
-      <td></td>
-      <td>Einige Design-Pattern aus der Vorlesung einsetzen (zum üben)</td>
-      <td></td>
-    </tr>
-    <tr>
       <td>Optional: CSS-Code verbessern & evtl. Flexbox nutzen</td>
       <td></td>
       <td></td>

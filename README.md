@@ -5,6 +5,8 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 
 **ToDo: Begründung, wieso kein in der Vorlesung vorgestelltes "Design Pattern" zu meinem Projekt passt. Und eventuell Erweiterungs-Ideen des Projektes, bei denen dann einige "Design Pattern" an Sinn gewinnen würden. Ich mag "Strategy" total, es hat generell so viele sinnvolle Einsatzmöglichkeiten. Aber für mein "Mini"-Projekt ist einfach keins sinnvoll.** :octocat:
 
+Die ganzen Diagramme werden noch digitalisiert & schöner dargestellt ...
+
 Erstmal UseCase Diagramm hochgeladen:
 
 ![alt text](https://s20.directupload.net/images/210704/sg2b55zp.jpg) 

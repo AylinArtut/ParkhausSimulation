@@ -140,6 +140,36 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
       <td></td>
       <td></td>
     </tr>
+    <tr>
+      <td>**1. Frage beantworten:** Digitalisierungskonzept: Was verstehen Sie unter Digitalisierung? Einfach nur das Analoge digital nachbauen? 
+             Oder wird auch das Geschäftsmodell / der Mehrwert / die Nutzbarkeit im Digitalen transformiert?</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>**2. Frage beantworten:** Zielkonflikte: Haben Sie Zielkonflikte erkennen können? Wie haben Sie diese aufgelöst?</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>**3. Frage beantworten:** Iterationsbericht: Was wurde in den vier Iterationen geleistet? Welche User Stories (Slice aus der Story Map) 
+      wurden in welcher Iteration jeweils umgesetzt? Was waren die Zwischenergebnisse? (Iterationsbericht z.B. mittels Screenshots des Kanban-Boards)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>**4. Frage beantworten:** Summarisches Projektprotokoll: Wie viel Zeit (in Personentagen (PT)) ist in welche Arbeit, in welche Teilschritte, 
+          in welche Zwischenergebnisse hinein geflossen?</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>**5. Frage beantworten:** Gesamt-Retrospektive: Resumée und Fazit zum Projekt im Team (nicht zur Lehrveranstaltung): Was lief gut? Was hat sich bewährt? 
+        Was waren Erfolgsrezepte? Was lief schlecht? Was würde man anders machen, wenn man noch einmal neu anfangen könnte? Also was hat man daraus gelernt und 
+        was würde man im nächsten Projekt besser machen?</td>
+      <td></td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
 

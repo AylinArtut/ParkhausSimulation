@@ -132,9 +132,9 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
     </tr>
     <tr>
       <td></td>
+      <td></td>
       <td>**1. Frage beantworten:** Digitalisierungskonzept: Was verstehen Sie unter Digitalisierung? Einfach nur das Analoge digital nachbauen? 
              Oder wird auch das Geschäftsmodell / der Mehrwert / die Nutzbarkeit im Digitalen transformiert?</td>
-      <td></td>
     </tr>
     <tr>
       <td>**2. Frage beantworten:** Zielkonflikte: Haben Sie Zielkonflikte erkennen können? Wie haben Sie diese aufgelöst?</td>
@@ -154,10 +154,10 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
       <td></td>
     </tr>
     <tr>
+      <td></td>
       <td>**5. Frage beantworten:** Gesamt-Retrospektive: Resumée und Fazit zum Projekt im Team (nicht zur Lehrveranstaltung): Was lief gut? Was hat sich bewährt? 
         Was waren Erfolgsrezepte? Was lief schlecht? Was würde man anders machen, wenn man noch einmal neu anfangen könnte? Also was hat man daraus gelernt und 
         was würde man im nächsten Projekt besser machen?</td>
-      <td></td>
       <td></td>
     </tr>
   </tbody>

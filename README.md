@@ -167,6 +167,10 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 
 **Klassendiagramm (erstellt mit Visual Paradigm):**
 
+Ich möchte nicht lügen: meine Interfaces waren "nach" der Planung erst präsent. :sweat: 
+
+Noob-Ehre und so. :sunglasses:
+
 ![alt text](https://s20.directupload.net/images/210705/az547x4o.jpg) 
 
 -------------------------------------------------------------------------------------------------------------------

@@ -173,7 +173,7 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 
 **UseCase Diagramm:**
 
-![alt text](https://s20.directupload.net/images/210704/sg2b55zp.jpg) 
+![alt text](https://s20.directupload.net/images/210705/9ew6ilem.jpg) 
 
 -------------------------------------------------------------------------------------------------------------------
 

@@ -115,6 +115,37 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
       <td></td>
       <td></td>
     </tr>
+    </tr>
+     <tr>
+      <td>3 Min. Video zum Demo des Produkts</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>10 Min. Video zur Präsentation des Projektes</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Erklärung, wieso kennengelernte "Design Patterns" für dieses Mini-Projekt ungeeignet sind</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>"Minimum Viable Product (MVP)" zum Repo hinzufügen</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Priorisierung der UserStories eindeutiger darstellen</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Optional: Story Map</td>
+      <td></td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
 

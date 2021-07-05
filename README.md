@@ -100,16 +100,6 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
       <td></td>
       <td>UML-Diagramme auch mit ins GitHub-Repo packen</td>
     </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td>".idea" rausschmeißen & GitIgnore-Datei anlegen :shit:</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td>"target" Ordner aus Repo rausschmeißen, da es nur Stuff ist der zur Laufzeit generiert wird</td>
-    </tr>
      <tr>
       <td>3 Min. Video zum Demo des Produkts</td>
       <td></td>

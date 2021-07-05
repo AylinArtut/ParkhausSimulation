@@ -3,28 +3,18 @@
 Ein webbasiertes Projekt für das Studium mit Java, welches ein Parkhausverwaltungssystem simuliert. :tulip:
 Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen Kanbanboard-Aktivitäten. :frog:
 
-**ToDo: Begründung, wieso kein in der Vorlesung vorgestelltes "Design Pattern" zu meinem Projekt passt. Und eventuell Erweiterungs-Ideen des Projektes, bei denen dann einige "Design Pattern" an Sinn gewinnen würden. Ich mag "Strategy" total, es hat generell so viele sinnvolle Einsatzmöglichkeiten. Aber für mein "Mini"-Projekt ist einfach keins sinnvoll.** :octocat:
-
-Die ganzen Diagramme werden noch digitalisiert & schöner dargestellt ...
-
-Klassendiagramm:
-
-![alt text](https://s20.directupload.net/images/210705/tgwwo7r6.jpg) 
-
-UseCase Diagramm:
-
-![alt text](https://s20.directupload.net/images/210704/sg2b55zp.jpg) 
-
 ![alt text](https://s20.directupload.net/images/210627/9oaulf55.jpg) 
 
 ![alt text](https://s20.directupload.net/images/210627/4z4ci9nj.jpg) 
 
 -------------------------------------------------------------------------------------------------------------------
 
+**Allgemeine ToDo's & Tasks:**
+
 <table>
   <thead>
     <tr>
-      <th>Allgemeine ToDo's & Tasks:</th>
+      <th>Aufgaben:</th>
       <th>In Progress:</th>
       <th>Done:</th>
     </tr>
@@ -118,27 +108,39 @@ UseCase Diagramm:
     <tr>
       <td></td>
       <td></td>
-      <td>"target" Ordner aus Repo rausschmeißen, da es nur Stuff ist der zur Laufzeit generiert wird.</td>
+      <td>"target" Ordner aus Repo rausschmeißen, da es nur Stuff ist der zur Laufzeit generiert wird</td>
+    </tr>
+     <tr>
+      <td>SonarQube einrichten</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 -------------------------------------------------------------------------------------------------------------------
 
+**Klassendiagramm:**
+
+![alt text](https://s20.directupload.net/images/210705/tgwwo7r6.jpg) 
+
+-------------------------------------------------------------------------------------------------------------------
+
+**UseCase Diagramm:**
+
+![alt text](https://s20.directupload.net/images/210704/sg2b55zp.jpg) 
+
+-------------------------------------------------------------------------------------------------------------------
+
 **Grobe Vorstellung (Produkt Vision):**
+
 ![alt text](https://s12.directupload.net/images/210430/ok2ufitt.png)
 
 -------------------------------------------------------------------------------------------------------------------
 
-**Planung benötigter Methoden für beide Klassen:**
-![alt text](https://s8.directupload.net/images/210430/anzn8bxp.png)
-
--------------------------------------------------------------------------------------------------------------------
+**User Stories:**
 
 <table>
-  <thead>
-    <th>User Stories:</th>
-  </thead>
   <tbody>
     <tr>
       <td>Enter-Button (zum Betreten des Parkhauses)</td>

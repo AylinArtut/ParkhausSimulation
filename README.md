@@ -111,12 +111,6 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
       <td>"target" Ordner aus Repo rausschmeißen, da es nur Stuff ist der zur Laufzeit generiert wird</td>
     </tr>
      <tr>
-      <td>SonarQube einrichten</td>
-      <td></td>
-      <td></td>
-    </tr>
-    </tr>
-     <tr>
       <td>3 Min. Video zum Demo des Produkts</td>
       <td></td>
       <td></td>

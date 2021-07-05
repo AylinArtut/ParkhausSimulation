@@ -116,9 +116,9 @@ UseCase Diagramm:
       <td>".idea" rausschmeißen & GitIgnore-Datei anlegen :shit:</td>
     </tr>
     <tr>
+      <td></td>
+      <td></td>
       <td>"target" Ordner aus Repo rausschmeißen, da es nur Stuff ist der zur Laufzeit generiert wird.</td>
-      <td></td>
-      <td></td>
     </tr>
   </tbody>
 </table>

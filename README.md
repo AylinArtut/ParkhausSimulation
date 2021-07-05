@@ -138,8 +138,8 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
     </tr>
     <tr>
       <td></td>
-      <td>**2. Frage beantworten:** Zielkonflikte: Haben Sie Zielkonflikte erkennen können? Wie haben Sie diese aufgelöst?</td>
       <td></td>
+      <td>**2. Frage beantworten:** Zielkonflikte: Haben Sie Zielkonflikte erkennen können? Wie haben Sie diese aufgelöst?</td>
     </tr>
     <tr>
       <td>**3. Frage beantworten:** Iterationsbericht: Was wurde in den vier Iterationen geleistet? Welche User Stories (Slice aus der Story Map) 
@@ -148,9 +148,9 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
       <td></td>
     </tr>
     <tr>
+      <td></td>
       <td>**4. Frage beantworten:** Summarisches Projektprotokoll: Wie viel Zeit (in Personentagen (PT)) ist in welche Arbeit, in welche Teilschritte, 
           in welche Zwischenergebnisse hinein geflossen?</td>
-      <td></td>
       <td></td>
     </tr>
     <tr>

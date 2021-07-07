@@ -9,6 +9,13 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 
 -------------------------------------------------------------------------------------------------------------------
 
+**Etwas verspätet von "Scrum" auf "Erweitertes Wasserfallmodell" umgestiegen:**
+
+![alt text](https://s20.directupload.net/images/210708/68dirqy7.png) 
+
+-------------------------------------------------------------------------------------------------------------------
+
+
 **Allgemeine ToDo's & Tasks:**
 
 <table>

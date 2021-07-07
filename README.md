@@ -9,9 +9,15 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 
 -------------------------------------------------------------------------------------------------------------------
 
-**Etwas verspätet von "Scrum" auf "Erweitertes Wasserfallmodell" umgestiegen:**
+**Von "Scrum" auf "Erweitertes Wasserfallmodell" umgestiegen:**
+
+Meine Selbstgespräche in Scrum waren epic ... :joy:
 
 ![alt text](https://s20.directupload.net/images/210708/68dirqy7.png) 
+
+Mein Scrum-Gesprächspartner war:
+
+![alt text](https://s20.directupload.net/images/210708/xjlhyxk2.jpg) 
 
 -------------------------------------------------------------------------------------------------------------------
 

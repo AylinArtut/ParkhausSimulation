@@ -12,7 +12,7 @@ public class CarPark implements CarParkInterface {
     private Random number = new Random();
     private int value;
     private double pricePerHour;
-    public int parkedCars;
+    public int parkedCars = 0;
 
     public CarPark(String carParkName, int parkingSlotSizes, int pricePerHour){
         this.carParkName = carParkName;
@@ -44,7 +44,7 @@ public class CarPark implements CarParkInterface {
     public String putCarToCarPark(Car car){
         parkingCar(car);
 
-        String defaultString = String.format("Im Parkhaus sind nun %d Autos.", parkedCars);
+        String defaultString = String.format("Im Parkhaus sind %d Autos.", parkedCars);
         String limitString = "Das Limit ist erreicht, keine Parkplätze frei.";
 
         if(parkedCars == parkingSlots.length){
@@ -78,12 +78,16 @@ public class CarPark implements CarParkInterface {
             }
             parkingSlots[this.value] = null;
         }
-        return String.format("Im Parkhaus sind nun %d Autos.", parkedCars);
+        return String.format("Im Parkhaus sind %d Autos.", parkedCars);
     }
 
     private double calculatePrice(Car car){
         long durationTime = car.getLeaveTime().getTime() - car.getEnterTime().getTime();
         durationTime = (int) (durationTime / 1000);
-        return durationTime * pricePerHour;
+        double price = durationTime * pricePerHour;
+        if(price >= 25){
+            price = 10;
+        }
+        return price;
     }
 }

@@ -30,6 +30,10 @@ public class CarParkServlet extends HttpServlet{
             this.information = carPark.putCarToCarPark(car);
         }
 
+        if(carPark.parkedCars == 0){
+            this.information = String.format("Im Parkhaus sind %d Autos.", 0);
+        }
+
         request.setAttribute("car", car);
         request.setAttribute("carPark", carPark);
         request.setAttribute("information", this.information);

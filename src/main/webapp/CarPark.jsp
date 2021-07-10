@@ -20,6 +20,7 @@
     <%
         }
     %>
+    <h3 id="information">Information: Preis steigt jede Sekunde & maximal zu zahlender Betrag ist 25 €. <br/> Außerdem muss man nichts zahlen, wenn man das Parkhaus "direkt" verlässt.</h3>
     <h2 id="information"> <%= request.getAttribute("information") %> </h2>
     <table>
         <tr>

@@ -23,47 +23,37 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
     <tr>
       <td></td>
       <td></td>
-      <td>Grobe Planung des Parkhauses mit Skizze (Produkt Vision)</td>
+      <td>Produkt Vision</td>
     </tr>
     <tr>
       <td></td>
       <td></td>
-      <td>Erstellung der User Stories</td>
+      <td>User Stories</td>
     </tr>
     <tr>
       <td></td>
       <td></td>
-      <td>Lokale Einrichtung des Tomcat-Servers in der IDE (IntelliJ)</td>
+      <td>Installation & Konfiguration von Tomcat</td>
     </tr>
     <tr>
       <td></td>
       <td></td>
-      <td>Einfindung in Funktionsweise mit Servlets & Co. (Erstellung von Test-Servlets & -Klassen)</td>
-    </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td>Planung bzw. Erstellung benötigter Klassen ("Car" & "CarPark")</td>
-    </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td>Planung der benötigten Methoden für Klasse "Car"</td>
+      <td>Einarbeitung in Java Server Pages & Testen von Servlets</td>
     </tr>
     <tr>
       <td></td>
       <td></td>
-      <td>Planung der benötigten Methoden für Klasse "CarPark"</td>
+      <td>Erstellung der JUnittests für Klasse "Car" & "CarPark"</td>
     </tr>
     <tr>
       <td></td>
       <td></td>
-      <td>Erstellung der JUnittests für die Klasse "Car"</td>
+      <td>Erstellung von Interfaces für beide Klassen</td>
     </tr>
     <tr>
       <td></td>
       <td></td>
-      <td>Erstellung der JUnittests für die Klasse "CarPark"</td>
+      <td>Erstellung der Benutzeroberfläche mit Buttons & Co.</td>
     </tr>
     <tr>
       <td></td>
@@ -78,17 +68,7 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
     <tr>
       <td></td>
       <td></td>
-      <td>Erstellung der Benutzeroberfläche mit Buttons & Co.</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td>Erstellung von Interfaces für die Klassen</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td>Optional: Mini-Browsergame mit Hinzunahme von jQuery (Auto-Steuerung etc.)</td>
+      <td>Optional: kleines Spiel mit jQuery vor Eintritt des Parkhauses</td>
     </tr>
   </tbody>
 </table>

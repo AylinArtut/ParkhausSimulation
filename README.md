@@ -119,13 +119,13 @@ Mein Scrum-Gesprächspartner war:
       <td></td>
     </tr>
     <tr>
-      <td>10 Min. Video zur Präsentation des Projektes</td>
       <td></td>
+      <td>10 Min. Video zur Präsentation des Projektes</td>
       <td></td>
     </tr>
     <tr>
-      <td>Erklärung, wieso kennengelernte "Design Patterns" für dieses Mini-Projekt ungeeignet sind</td>
       <td></td>
+      <td>Erklärung, wieso kennengelernte "Design Patterns" für dieses Mini-Projekt ungeeignet sind</td>
       <td></td>
     </tr>
     <tr>
@@ -146,9 +146,9 @@ Mein Scrum-Gesprächspartner war:
     </tr>
     <tr>
       <td></td>
+      <td></td>
       <td>**3. Frage beantworten:** Iterationsbericht: Was wurde in den vier Iterationen geleistet? Welche User Stories (Slice aus der Story Map) 
       wurden in welcher Iteration jeweils umgesetzt? Was waren die Zwischenergebnisse? (Iterationsbericht z.B. mittels Screenshots des Kanban-Boards)</td>
-      <td></td>
     </tr>
     <tr>
       <td></td>

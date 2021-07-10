@@ -9,7 +9,7 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 
 -------------------------------------------------------------------------------------------------------------------
 
-**Allgemeine ToDo's & Tasks:**
+**Versioniertes Kanbanboard:**
 
 <table>
   <thead>

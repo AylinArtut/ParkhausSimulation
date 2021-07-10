@@ -6,8 +6,6 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 **Übrigen ToDo's:**
 * Erklärung, wieso keine in der Vorlesung vorgestellten "Design Pattern" zu meinem Mini-Projekt passen
 * Kurzbeschreibung zum Projekt
-* Generell alle Dokumente als PDF verpacken
-* Copyright bei benutzten Grafiken überprüfen
 * Jenkins & SonarQube anschauen
 * Video zum Produkt erstellen
 * Video zur Präsentation erstellen

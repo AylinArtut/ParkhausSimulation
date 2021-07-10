@@ -9,19 +9,6 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 
 -------------------------------------------------------------------------------------------------------------------
 
-**Von "Scrum" auf "Erweitertes Wasserfallmodell" umgestiegen:**
-
-Meine Selbstgespräche in Scrum waren epic ... :joy:
-
-![alt text](https://s20.directupload.net/images/210708/68dirqy7.png) 
-
-Mein Scrum-Gesprächspartner war:
-
-![alt text](https://s20.directupload.net/images/210708/xjlhyxk2.jpg) 
-
--------------------------------------------------------------------------------------------------------------------
-
-
 **Allgemeine ToDo's & Tasks:**
 
 <table>
@@ -166,48 +153,6 @@ Mein Scrum-Gesprächspartner war:
   </tbody>
 </table>
 
--------------------------------------------------------------------------------------------------------------------
+![alt text](https://i.imgur.com/kwFeQX6.gif) 
 
-**Klassendiagramm (erstellt mit Visual Paradigm):**
-
-Ich möchte nicht lügen: meine Interfaces waren "nach" der Planung erst präsent. :sweat: 
-
-Noob-Ehre und so. :sunglasses:
-
-![alt text](https://s20.directupload.net/images/210705/az547x4o.jpg) 
-
--------------------------------------------------------------------------------------------------------------------
-
-**UseCase Diagramm (erstellt mit Visual Paradigm):**
-
-![alt text](https://s20.directupload.net/images/210705/9ew6ilem.jpg) 
-
--------------------------------------------------------------------------------------------------------------------
-
-**Grobe Vorstellung (Produkt Vision):**
-
-![alt text](https://s12.directupload.net/images/210430/ok2ufitt.png)
-
--------------------------------------------------------------------------------------------------------------------
-
-**User Stories:**
-
-<table>
-  <tbody>
-    <tr>
-      <td>Enter-Button (zum Betreten des Parkhauses)</td>
-    </tr>
-    <tr>
-      <td>Leave-Button (zum Verlassen des Parkhauses)</td>
-    </tr>
-    <tr>
-      <td>Tabelle (zur Erfassung von allen Parkgebühren)</td>
-    </tr>
-    <tr>
-      <td>Parkschein (für Zeit-Erfassung / TimeStamp)</td>
-    </tr>
-    <tr>
-      <td>Preisliste (Grundpreis | in Stunden | keine Zahlung beim Verlassen nach 5 Minuten)</td>
-    </tr>
-  </tbody>
-</table>
+Hard working, brbr. ~

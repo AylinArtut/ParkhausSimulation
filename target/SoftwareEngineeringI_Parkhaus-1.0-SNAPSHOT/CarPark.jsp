@@ -1,5 +1,7 @@
 <%@ page import="de.parkhaus.SoftwareEngineeringI_Parkhaus.CarPark" %>
+<%@ page import="de.parkhaus.SoftwareEngineeringI_Parkhaus.CarHelper" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+
 <html>
 <head>
     <link rel="stylesheet" href="CarPark.css">
@@ -15,12 +17,18 @@
         for(int i = 0; i < carPark.parkingSlots.length; i++){
     %>
     <div class="parkingSlot">
-        <div class="car" id="<%="car" + i%>"></div>
+        <div class="car" id="<%= "car" + i %>"></div>
     </div>
     <%
         }
     %>
-    <h3 id="information">Information: Preis steigt jede Sekunde & maximal zu zahlender Betrag ist 25 €. <br/> Außerdem muss man nichts zahlen, wenn man das Parkhaus "direkt" verlässt.</h3>
+    <div id="information">
+        <ul>
+            <li> Steigender Preis pro Sekunde </li>
+            <li> Maximale Parkgebühr beträgt 25 € (Bezahlung erfolgt automatisch) </li>
+            <li> Beim direkten Verlassen muss man nichts bezahlen </li>
+        </ul>
+    </div>
     <h2 id="information"> <%= request.getAttribute("information") %> </h2>
     <table>
         <tr>
@@ -37,9 +45,9 @@
             <tr>
                 <td> <%= i+1 %> </td>
                 <td> <%= carPark.leftCars[i].getRegistrationNumber() %> </td>
-                <td> <%= carPark.leftCars[i].getPrice() %> </td>
-                <td> <%= carPark.leftCars[i].getEnterTime() %> </td>
-                <td> <%= carPark.leftCars[i].getLeaveTime() %> </td>
+                <td> <%= carPark.leftCars[i].getPrice() %> € </td>
+                <td> <%= CarHelper.formatDate(carPark.leftCars[i].getEnterTime()) %> Uhr </td>
+                <td> <%= CarHelper.formatDate(carPark.leftCars[i].getLeaveTime()) %> Uhr </td>
             </tr>
     <%
         }

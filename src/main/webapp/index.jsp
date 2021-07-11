@@ -17,11 +17,9 @@
         Helfen Sie der Dame unfallfrei zum schlossartigen Parkhaus zu gelangen
         indem Sie ihr Auto per Drag & Drop drüber ziehen.
     </p>
-
     <audio controls autoplay hidden id="audio">
         <source src="Music/SNES_Super_Mario_Kart.mp3" type="audio/ogg">
     </audio>
-
     <div id="background">
         <div id="car">
             <img src="Images/princessCar.png">
@@ -30,7 +28,6 @@
             <img src="Images/pinkCastle.png">
         </div>
     </div>
-
     <form action="carParkServlet" method="POST" name="form" id="form">
         <input type="submit" name="skipGame" id="skipGame" value="Ohne Spiel zum Parkhaus" />
     </form>

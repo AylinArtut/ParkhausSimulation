@@ -1,11 +1,22 @@
 package de.parkhaus.SoftwareEngineeringI_Parkhaus;
 
 import java.sql.Timestamp;
-import java.text.SimpleDateFormat;
 import java.util.Random;
 
-public class Car implements CarInterface {
+public class Car implements ICar {
+    private String carColor;
+    private String registrationNumber;
 
+    // "enterTime" & "leaveTime" are ticket information:
+    private Timestamp enterTime;
+    private Timestamp leaveTime;
+
+    private double price = 0.0;
+
+    // I just wanted only one instance of "Random" in this class, which I can use everywhere:
+    private Random random = new Random();
+
+    // Some german locations for registration number:
     private String[] location = {"A", "AA", "AB", "ABG", "ABI", "AC", "AE", "AH", "AIB", "AIC", "AK", "ALF",
             "ALZ", "AM", "AN", "ANA", "ANG", "ANK", "AÖ", "AP", "APD", "ARN", "ART", "AS",
             "ASL", "ASZ", "AT", "AU", "AUR", "AW", "AZ", "AZE", "B", "BA", "BAD", "BAR", "BB",
@@ -32,30 +43,29 @@ public class Car implements CarInterface {
             "RH", "RN", "ROF", "S", "SAL", "SB", "SAN", "SBG", "SC", "SEB", "SFT", "SHA", "SI",
             "SHK", "SL", "SLE", "SN", "STA", "SZ", "T", "TR", "UE", "V", "VG", "VK", "WÜ",
             "WW", "WZ", "ZI", "ZP", "ZR", "ZW", "ZZ"};
-    private String[] neighrestLocations = {"K", "SU", "BN", "D"};
-    private String registrationNumber;
-    private Timestamp enterTime;
-    private Timestamp leaveTime;
-    private String carColor;
-    private double price = 0.0;
-    private Random random = new Random();
 
+    // These are locations for cars, which visit more often the car park (to make it more realistic):
+    private String[] nearestNeighbours = {"K", "SU", "BN", "D"};
+
+    // Whenever a car is spawned, it gets a random generated color & a registration number:
+    public Car() {
+        this.carColor = generateCarColor();
+        this.registrationNumber = generateRegistrationNumber();
+    }
+
+    // "Getter- & Setter" are a bit over the top for a little simulation like this, but I thought it would be okay to use:
     public String getRegistrationNumber() {
         return this.registrationNumber;
     }
-
     public Timestamp getEnterTime() {
         return this.enterTime;
     }
-
     public Timestamp getLeaveTime() {
         return this.leaveTime;
     }
-
     public String getCarColor() {
         return this.carColor;
     }
-
     public double getPrice() {
         return this.price;
     }
@@ -63,47 +73,43 @@ public class Car implements CarInterface {
     public void setEnterTime(Timestamp enterTime) {
         this.enterTime = enterTime;
     }
-
     public void setLeaveTime(Timestamp leaveTime) {
         this.leaveTime = leaveTime;
     }
-
     public void setPrice(double price) {
         this.price = price;
     }
-
     public void setRegistrationNumber(String registrationNumber) {
         this.registrationNumber = registrationNumber;
     }
-
     public void setCarColor(String carColor) {
         this.carColor = carColor;
     }
 
-    public Car() {
-        this.carColor = generateCarColor();
-        this.registrationNumber = generateRegistrationNumber();
-    }
-
+    // This generates random color for cars:
     private String generateCarColor() {
         return String.format("#%06x", this.random.nextInt(0xffffff + 1));
     }
 
+    // This generates random registration number for cars & same registration numbers are okay, 'cause any car can park any time it wants again:
     private String generateRegistrationNumber() {
-        int firstLoop = this.random.nextInt(100);
         String carLocation;
 
-        if (firstLoop <= 90) {
-            carLocation = neighrestLocations[this.random.nextInt(neighrestLocations.length)];
+        // The chance to get one in "nearestNeighbours" is higher than other locations:
+        if (this.random.nextInt(100) <= 90) {
+            carLocation = nearestNeighbours[this.random.nextInt(nearestNeighbours.length)];
         } else {
             carLocation = location[this.random.nextInt(location.length)];
         }
 
+        // Generating both capital letters, which you can always see on registration numbers:
         char firstLetter = (char) (this.random.nextInt(26) + 'A');
         char secondLetter = (char) (this.random.nextInt(26) + 'A');
 
+        // And those numbers, which are always behind letters:
         int numbers = this.random.nextInt(9999);
 
+        // By any mistake: I'm female & I don't understand car stuff ! (^_^)
         return  String.format("%s %c%c %d", carLocation, firstLetter, secondLetter, numbers);
     }
 }

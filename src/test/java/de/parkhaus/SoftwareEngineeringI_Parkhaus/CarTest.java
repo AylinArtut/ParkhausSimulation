@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.TimeUnit;
 import java.sql.Timestamp;
-import java.util.regex.Pattern;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -84,6 +83,6 @@ class CarTest {
     @Test
     void formatDate() {
         carPark.putCarToCarPark(car);
-        assertTrue(CarInterface.formatDate(car.getEnterTime()).matches("^\\d{2}\\.\\d{2}\\.\\d{2}, \\d{2}:\\d{2}$"));
+        assertTrue(CarHelper.formatDate(car.getEnterTime()).matches("^\\d{2}\\.\\d{2}\\.\\d{2}, \\d{2}:\\d{2}$"));
     }
 }

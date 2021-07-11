@@ -18,7 +18,7 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 
 **Versioniertes Kanbanboard:**
 
-<table>
+<table> 
   <thead>
     <tr>
       <th>Aufgaben:</th>
@@ -79,7 +79,3 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
     </tr>
   </tbody>
 </table>
-
-![alt text](https://i.imgur.com/kwFeQX6.gif) 
-
-Hard working, brbr. ~

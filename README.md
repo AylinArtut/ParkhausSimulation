@@ -13,9 +13,9 @@ Ein webbasiertes Projekt für das Studium mit Java, welches ein Parkhausverwaltu
 <table> 
   <thead>
     <tr>
-      <th>Aufgaben:</th>
-      <th>In Progress:</th>
-      <th>Done:</th>
+      <th>Arbeitspaket</th>
+      <th>In Bearbeitung</th>
+      <th>Fertig</th>
     </tr>
   </thead>
   <tbody>

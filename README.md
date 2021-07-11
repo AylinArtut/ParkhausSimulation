@@ -10,9 +10,9 @@ Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen 
 * Video zum Produkt erstellen
 * Video zur Präsentation erstellen
 
-![alt text](https://s20.directupload.net/images/210627/9oaulf55.jpg) 
+![alt text](https://s20.directupload.net/images/210711/ltcupaz6.jpg) 
 
-![alt text](https://s20.directupload.net/images/210627/4z4ci9nj.jpg) 
+![alt text](https://s20.directupload.net/images/210711/6xeggnmc.jpg) 
 
 -------------------------------------------------------------------------------------------------------------------
 

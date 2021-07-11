@@ -1,14 +1,6 @@
 # ParkhausSimulation
 
-Ein webbasiertes Projekt für das Studium mit Java, welches ein Parkhausverwaltungssystem simuliert. :tulip:
-Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen Kanbanboard-Aktivitäten. :frog:
-
-**Übrigen ToDo's:**
-* Erklärung, wieso keine in der Vorlesung vorgestellten "Design Pattern" zu meinem Mini-Projekt passen
-* Kurzbeschreibung zum Projekt
-* Jenkins & SonarQube anschauen
-* Video zum Produkt erstellen
-* Video zur Präsentation erstellen
+Ein webbasiertes Projekt für das Studium mit Java, welches ein Parkhausverwaltungssystem simuliert. Neben Quellcode versioniere ich auch meine Projektplanung, sowie meine einsamen Kanbanboard-Aktivitäten. :frog: :tulip:
 
 ![alt text](https://s20.directupload.net/images/210711/ltcupaz6.jpg) 
 

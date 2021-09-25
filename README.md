@@ -2,6 +2,6 @@
 
 Ein webbasiertes Projekt für das Studium mit Java, welches ein Parkhausverwaltungssystem simuliert. :frog: :tulip:
 
-![alt text](https://s20.directupload.net/images/210711/ltcupaz6.jpg) 
+![alt text](https://i.ibb.co/F8P5GB0/Screenshot-des-Spiels.jpg) 
 
-![alt text](https://s20.directupload.net/images/210711/6xeggnmc.jpg) 
+![alt text](https://i.ibb.co/r7L2C4s/Screenshot-der-Parkhaussimulation.jpg) 
